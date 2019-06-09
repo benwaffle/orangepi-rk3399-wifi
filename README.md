@@ -8,4 +8,4 @@ Assuming Ubuntu 16.04 build from www.orangepi.org
 1. Back up `/boot/rk3399-orangepi.dtb`
 1. Copy `rk3399-orangepi.dtb` from this repo into `/boot`
 1. Reboot
-1. Set up wpa_supplicant, dhclient, NetworkManager, etc...
+1. You should see a `wlan0` interface from `ip link`
